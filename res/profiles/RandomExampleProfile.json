@@ -1,0 +1,63 @@
+{
+    "name": "SimplePTP",
+    "manufacturer": "IoTechSystems",
+    "model": "IoT3",
+    "description": "Example PTP Sensor",
+    "labels": [
+        "sensor"
+    ],
+    "apiVersion": "v2",
+    "deviceResources": [
+        {
+            "name": "Time",
+            "description": "A Sensor generating values between 0 & 100",
+            "attributes": {
+                "SensorID": "Sen1",
+                "SensorType": 1
+            },
+            "properties": {
+                "valueType": "string",
+                "readWrite": "R",
+                "units": "Random"
+            }
+        },
+        {
+            "name": "TimeSource",
+            "description": "A Sensor generating values between 1 & 1000",
+            "attributes": {
+                "SensorID": "Sen2",
+                "SensorType": 2
+            },
+            "properties": {
+                "valueType": "string",
+                "readWrite": "R",
+                "units": "Random"
+            }
+        },
+        {
+            "name": "PTPStatus",
+            "description": "Is it synchronized",
+            "attributes": {
+                "SensorID": "Sen2",
+                "SensorType": 3
+            },
+            "properties": {
+                "valueType": "string",
+                "readWrite": "R",
+                "units": "Random"
+            }
+        },
+        {
+            "name": "Switch",
+            "description": "A generic switch",
+            "attributes": {
+                "SwitchID": "Switch1"
+            },
+            "properties": {
+                "valueType": "Bool",
+                "readWrite": "RW",
+                "units": "State"
+            }
+        }
+    ]
+}

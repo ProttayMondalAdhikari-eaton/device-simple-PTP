@@ -1,0 +1,22 @@
+{
+    "name": "SimplePTP1",
+    "profileName": "SimplePTP",
+    "description": "An Example PTP Device",
+    "protocols": {
+        "Other": {
+            "Address": "someSensorEndpoint"
+        }
+    },
+    "autoEvents": [
+        {
+            "sourceName": "Time",
+            "onChange": false,
+            "interval": "10s"
+        },
+        {
+            "sourceName": "TimeSource",
+            "onChange": false,
+            "interval": "15000ms"
+        }
+    ]
+}
