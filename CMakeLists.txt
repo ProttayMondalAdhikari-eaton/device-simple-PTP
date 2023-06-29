@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.21)
+#cmake_minimum_required(VERSION 3.21)
 project(device-simple-PTP CXX)
 
 add_compile_definitions(USE_EATON_SDK_ENHANCEMENT)
