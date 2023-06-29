@@ -9,6 +9,7 @@ set(SOURCES
     ./src/main.cpp
 )
 
+
 add_executable(device-simple-PTP ${SOURCES})
 
 # Dependencies
